@@ -2,10 +2,10 @@
   "name": "agentic-embed",
   "version": "0.1.0",
   "description": "Vector search for AI — text chunking, embeddings, semantic search. Zero deps.",
-  "main": "embed.js",
-  "files": ["embed.js", "embed.min.js", "README.md"],
+  "main": "agentic-embed.js",
+  "files": ["agentic-embed.js", "agentic-embed.min.js", "README.md"],
   "scripts": {
-    "minify": "npx terser embed.js -c -m -o embed.min.js"
+    "minify": "npx terser agentic-embed.js -c -m -o agentic-embed.min.js"
   },
   "keywords": ["embedding", "vector", "search", "rag", "semantic", "ai", "llm", "zero-dependency"],
   "license": "MIT",
